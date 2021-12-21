@@ -2,6 +2,7 @@ import React from "react";
 import Circles from "../../components/Circles/Circles";
 import Skills from "../Skills/Skills";
 import "./Home.scss";
+import arrow from "../../assests/images/Arrow 1.png"
 
 const Home = () => {
 
@@ -17,13 +18,16 @@ const Home = () => {
         <br />
         Software Developer.
       </h2>
-      <button className="Home__CTA"> 
+      <p className="Home__CTA"> 
         Scroll down to view
-      </button>
+      </p>
+      <img src={arrow} />
     </div>
-   </div>
 
-    <Skills />
+
+   </div>
+   <Skills />
+
 
   </>
 

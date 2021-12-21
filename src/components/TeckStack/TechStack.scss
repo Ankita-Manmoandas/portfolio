@@ -1,0 +1,26 @@
+
+@use "../../assests/variables" as *;
+@use "../../assests/typ" as *;
+
+.teck-stack {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  height: 40vh;
+  width: 70%;
+  margin: auto;
+  padding-top: 0;
+  gap: 1px;
+  justify-content: space-evenly;
+
+
+  &__icon {
+    height: 50%;
+    width: auto;
+    margin-top: 10px;
+   
+  }
+  &__icon:hover {
+    box-shadow: 10px 10px 15px rgb(27, 4, 109);
+  }
+
+}
