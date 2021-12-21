@@ -1,23 +1,24 @@
 
 import blackCross from "../../assests/images/black-cross.png";
 import { Link } from "react-router-dom";
+import "./NavMenu.scss"
 const NavMenu = (props) => {
   const {toggle} = props;
 
-  return <div className="NavMenu">
-    <div className="NavMenu__content">
-     <img src = {blackCross} alt="close-menu" className="NavMenu__content__cross" onClick = {toggle} />
+  return <div className="nav-menu">
+    <div className="nav-menu__content">
+     <img src = {blackCross} alt="close-menu" className="nav-menu__cross" onClick = {toggle} />
 
      <Link to="/" className="nav-menu__item" onClick={toggle}>
       Home
     </Link>
-    <Link to ="/Skills" className=" nav-menu__skills" onClick = {toggle}> 
+    <Link to ="/Skills" className=" nav-menu__item" onClick = {toggle}> 
     Skills 
     </Link>
-    <Link to ="/Skills" className=" nav-menu__skills" onClick = {toggle}> 
+    <Link to ="/Projects" className=" nav-menu__item" onClick = {toggle}> 
     Projects
     </Link>
-    <Link to ="/Skills" className=" nav-menu__skills" onClick = {toggle}> 
+    <Link to ="/Contact" className=" nav-menu__item" onClick = {toggle}> 
     Contact
     </Link>
   

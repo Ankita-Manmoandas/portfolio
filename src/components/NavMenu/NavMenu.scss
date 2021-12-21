@@ -1,0 +1,36 @@
+
+@use "../../assests/variables" as *;
+
+.nav-menu{
+background-color: beige;
+position: fixed;
+top: 0;
+left: 0;
+right: 0;
+bottom: 0;
+// z-index: 5;
+
+
+&__content {
+height:100%;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+
+
+}
+ 
+&__cross {
+  position: absolute;
+  position: absolute;
+  top: 20px;
+  right: 50px;
+
+ }
+ &__item {
+   font-size: 30px;
+  text-decoration: none;
+padding-top: 20px; }
+
+}
