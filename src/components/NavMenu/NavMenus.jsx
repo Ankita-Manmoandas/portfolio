@@ -12,13 +12,13 @@ const NavMenu = (props) => {
      <Link to="/" className="nav-menu__item" onClick={toggle}>
       Home
     </Link>
-    <Link to ="/Skills" className=" nav-menu__item" onClick = {toggle}> 
+    <Link to ="/skills" className=" nav-menu__item" onClick = {toggle}> 
     Skills 
     </Link>
-    <Link to ="/Projects" className=" nav-menu__item" onClick = {toggle}> 
+    <Link to ="/projects" className=" nav-menu__item" onClick = {toggle}> 
     Projects
     </Link>
-    <Link to ="/Contact" className=" nav-menu__item" onClick = {toggle}> 
+    <Link to ="/contact" className=" nav-menu__item" onClick = {toggle}> 
     Contact
     </Link>
   

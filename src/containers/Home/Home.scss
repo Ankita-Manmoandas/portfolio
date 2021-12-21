@@ -1,0 +1,53 @@
+
+@use "../../assests/variables" as *;
+@use "../../assests/typ" as *;
+
+
+.Home {
+  // height: 100vh;
+  // // width: 100%;
+  // display: flex;
+  // flex-direction: row;
+  // justify-content: space-around;
+  // align-items: center;
+  // // color: $secondary-color;
+
+
+  &__section {
+  height: 30vh; 
+  width: 90%;
+  margin: auto;
+  margin-top: 0;
+  font-family: $secondary-font;
+  color: $secondary-color;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  
+}
+  &__header {  
+    
+    font-size: 17px;
+}
+&__CTA {
+ 
+    font-size: 13px;
+    height: 30%;
+    width: 35%;
+    border: $secondary-color 2px solid;
+    border-radius: 10px;
+    text-align: center;
+
+    background-color: $primary-color;
+    font-family: $secondary-font;
+    color: $secondary-color;
+    
+    
+
+  
+  }
+
+}
+
+

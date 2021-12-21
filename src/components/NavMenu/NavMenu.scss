@@ -1,13 +1,15 @@
 
 @use "../../assests/variables" as *;
+@use "../../assests/typ" as *;
 
 .nav-menu{
-background-color: beige;
+background-color: $primary-color;
 position: fixed;
 top: 0;
 left: 0;
 right: 0;
 bottom: 0;
+font-family: $secondary-font;
 // z-index: 5;
 
 
@@ -31,6 +33,6 @@ align-items: center;
  &__item {
    font-size: 30px;
   text-decoration: none;
-padding-top: 20px; }
+  padding-top: 20px; }
 
 }
