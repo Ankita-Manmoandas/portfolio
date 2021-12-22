@@ -19,7 +19,7 @@ const Home = () => {
         <br />
         My name is Ankita and I’m a 
         <br />
-        Software Developer.
+        Junior Full Stack Engineer
       </h2>
       <p className="Home__CTA"> 
         Scroll down to view

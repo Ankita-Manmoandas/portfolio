@@ -1,0 +1,37 @@
+@use "../../assests/variables" as *;
+@use "../../assests/typ" as *;
+
+
+.contact {
+height: 70vh;
+margin-top: 35%;
+
+
+&__header {
+  margin-bottom: 5%;
+}
+
+
+&__sub-heading {
+  margin-top: 2%;
+  margin-bottom: 3%;
+}
+
+&__icons {
+  height: 30%;
+ 
+}
+&__sub-heading{
+  padding-top: 5%;
+  margin-bottom: 5%;
+}
+
+&__icon {
+  padding: 10px;
+  height: auto;
+}
+&__icon:hover {
+  transform: scale(0.6);
+}
+
+}
