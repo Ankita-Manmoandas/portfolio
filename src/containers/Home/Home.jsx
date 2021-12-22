@@ -26,7 +26,7 @@ const Home = () => {
 
 
    </div>
-   <Skills />
+   <Skills techHeader="Tech Stack" />
 
 
   </>
