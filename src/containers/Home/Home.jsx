@@ -5,6 +5,7 @@ import "./Home.scss";
 import arrow from "../../assests/images/Arrow 1.png"
 import Projects from "../projects/Projects";
 import About from "../About/About";
+import Contact from "../contact/Contact";
 
 const Home = () => {
 
@@ -33,6 +34,7 @@ const Home = () => {
    <Projects /> 
 
    <About /> 
+   <Contact /> 
 
 
   </>
