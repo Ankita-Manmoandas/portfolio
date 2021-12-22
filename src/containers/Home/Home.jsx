@@ -4,6 +4,7 @@ import Skills from "../Skills/Skills";
 import "./Home.scss";
 import arrow from "../../assests/images/Arrow 1.png"
 import Projects from "../projects/Projects";
+import About from "../About/About";
 
 const Home = () => {
 
@@ -27,9 +28,11 @@ const Home = () => {
 
 
    </div>
-   <Skills techHeader="Tech Stack" />
+   <Skills />
 
    <Projects /> 
+
+   <About /> 
 
 
   </>

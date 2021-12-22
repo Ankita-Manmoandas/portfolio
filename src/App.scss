@@ -1,10 +1,13 @@
 
 
 @import "./assests/variables";
+@import "./assests/typ";
 
 * {
   text-align: center;
   background-color: $primary-color;
+  font-family: $secondary-font;
+  color: $secondary-color;
 }
 
 // .App-logo {

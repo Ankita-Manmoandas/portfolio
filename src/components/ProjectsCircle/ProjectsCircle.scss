@@ -1,0 +1,15 @@
+
+@use "../../assests/variables" as *;
+@use "../../assests/typ" as *;
+
+
+.project-circles {
+  height: auto;
+
+
+  &__img {
+    height: 100px;
+    width: 110px;
+    margin-top: 4%;
+  }
+}

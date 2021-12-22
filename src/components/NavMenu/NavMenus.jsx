@@ -18,10 +18,14 @@ const NavMenu = (props) => {
     <Link to ="/projects" className=" nav-menu__item" onClick = {toggle}> 
     Projects
     </Link>
+    <Link to = "/about" className=" nav-menu__item" onClick = {toggle}> 
+   About 
+   </Link>
+t
     <Link to ="/contact" className=" nav-menu__item" onClick = {toggle}> 
     Contact
     </Link>
-  
+   
   
 
     

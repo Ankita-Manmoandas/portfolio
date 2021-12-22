@@ -7,6 +7,7 @@ import Skills from "./containers/Skills/Skills"
 import Projects from "./containers/projects/Projects"
 import Contact from "./containers/contact/Contact";
 import Home from "./containers/Home/Home"; 
+import About from "./containers/About/About"
 
 const App = () => {
   return (
@@ -19,6 +20,7 @@ const App = () => {
      <Route path = "/skills" element={<Skills />} />
      <Route path = "/projects" element= {<Projects />} />
      <Route path = "/contact" element = {<Contact />} />
+     <Route path = "/about" element = {<About />} />
 
      </Routes>
 
