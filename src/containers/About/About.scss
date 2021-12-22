@@ -1,0 +1,18 @@
+
+@use "../../assests//variables" as *;
+.about {
+  margin-top: 30%;
+
+  &__header{
+    margin: 10px;
+  }
+  &__content {
+    width: 83%;
+     height: 68vh;
+     border: $secondary-color 1px solid;
+     border-radius: 15px;
+     margin: auto;
+     padding: 10px 5px 10px 10px;
+     margin-top: 10px;
+  }
+}
