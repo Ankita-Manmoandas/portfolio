@@ -3,11 +3,12 @@ import Circles from "../../components/Circles/Circles";
 import Skills from "../Skills/Skills";
 import "./Home.scss";
 import arrow from "../../assests/images/Arrow 1.png"
+import Projects from "../projects/Projects";
 
 const Home = () => {
 
   return <>
-<Circles />
+<Circles className="circles-home" />
 <div className="Home">
   <div className="Home__section">
   
@@ -27,6 +28,8 @@ const Home = () => {
 
    </div>
    <Skills techHeader="Tech Stack" />
+
+   <Projects /> 
 
 
   </>
