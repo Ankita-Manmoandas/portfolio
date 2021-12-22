@@ -12,7 +12,7 @@ transitioning into a long-term career in tech.🪴
 <br /> 
 <br /> 
 
-I fell in love with programming as I completed a
+I fell in love with programming after I completed a
 self-directed 300-hour Web development course
 by FreeCodeCamp and Bright
 Network’s Python intro course. 🤩
