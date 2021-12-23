@@ -6,17 +6,20 @@ const ProjectsCircle = (props) => {
 
   const [showProject, setShowProject] = useState (false);
 
-
   return <div className="project-circles">
+  
     <img src={defaultCircle} alt= "circle art" className="project-circles__img"
+onMouseMove={()=> setShowProject(true)}
+onClick={()=>setShowProject (false)}
 
-    onMouseEnter={() => setShowProject(true)}
-    onMouseLeave={() => setShowProject(false)}
     /> 
 
     {showProject && (
       <img src={projectCircle} alt="project" 
-      className="project-circles__img"/>
+      className="project-circles__img"
+   
+      
+      />
     )}
 
     <p> {projectName} </p>
