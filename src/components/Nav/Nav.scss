@@ -34,15 +34,30 @@
 
 
 }
-
-// @media  screen and (min-width: 600px) {
-//   .nav {
-//     background-color: beige;
-
-//     &__menu-image {
-//       display: block;
-     
-//     }
-//   }
+@media screen  and (min-width: $medium-screen-width), screen and (min-height:$medium-screen-height) {
+  .nav {
+    height: 7.25em;
+    width: 100%;
+    
   
-// }
+
+
+  
+    &__logo {
+      font-family: $primary-font;
+      color: $tertiary-color; 
+      font-size: 30px;
+      margin-left: 2%;
+
+  
+    }
+    
+    &__menu-image {
+    margin-right: 5%;
+    transform: scale(1.4);
+
+  }
+}
+
+
+}

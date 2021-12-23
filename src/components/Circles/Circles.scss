@@ -10,3 +10,11 @@
 
 
 // } 
+
+
+
+@media screen  and (min-width: $medium-screen-width), screen and (min-height:$medium-screen-height) {
+  .Circles {
+  transform: scale(1.5);
+  }
+}

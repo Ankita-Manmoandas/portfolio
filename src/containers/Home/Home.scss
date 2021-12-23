@@ -93,3 +93,35 @@
 
   
 }
+
+
+@media screen  and (min-width: $medium-screen-width), screen and (min-height:$medium-screen-height) {
+  .Home {
+    align-self: center;
+    width: 100%;
+    margin:auto;
+    display: flex;
+    height: 60vh;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 40%;
+    margin-left: 20%;
+    
+
+    &__header {  
+      margin-top: 140%;
+      font-size: 30px;
+  }
+  &__CTA {
+    margin-top: 80%;
+    font-size: 22px;
+  }
+  &__arrow {
+    transform: scale(1.25);
+  }
+  
+  }
+
+
+  
+}

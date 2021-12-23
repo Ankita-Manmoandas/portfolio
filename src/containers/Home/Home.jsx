@@ -25,7 +25,7 @@ const Home = () => {
       <p className="Home__CTA"> 
         Scroll down to view
       </p>
-      <img src={arrow} />
+      <img src={arrow} className="Home__arrow" />
     </div>
 
 
