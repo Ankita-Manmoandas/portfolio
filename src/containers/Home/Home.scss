@@ -73,3 +73,23 @@
 
   
 }
+
+
+@media screen  and (min-height:812px) {
+
+.Home {
+  margin-top: 60%;
+  &__header {  
+    margin-top: 15%;
+    font-size: 21px;
+}
+&__CTA {
+
+  font-size: 17px;
+}
+
+}
+
+
+  
+}

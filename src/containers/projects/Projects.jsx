@@ -19,6 +19,7 @@ const Projects = () => {
   <ProjectsCircle  defaultCircle = {darkBlue} projectCircle={tictac} projectName="Noughts and Crosses"  />
   <ProjectsCircle  defaultCircle = {PurpleCircle} projectCircle={punk} projectName="Punk API" />
   <ProjectsCircle  defaultCircle = {darkBlue} projectCircle={morse} projectName="Morse-code translator"  />
+  <br />
 
   <p className="projects_instruction">Hover over each circle for a preview!</p>
 
