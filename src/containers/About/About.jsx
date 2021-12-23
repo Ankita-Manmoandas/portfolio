@@ -7,6 +7,7 @@ const About = () => {
     <h2 className="about__header">About me</h2>
     <DisplayPicture />
     <div className="about__content">
+      <br />
     <p> I'm a Biologist working towards
 transitioning into a long-term career in tech.🪴
 <br /> 

@@ -1,6 +1,16 @@
-
+@use "../../assests//variables" as *;
 
 .display-picture {
   height: 150px;
   margin-top: 5%;
+}
+
+
+@media screen  and (min-width: $medium-screen-width), screen and (min-height:$medium-screen-height) {
+
+  
+.display-picture {
+ transform: scale(2);
+}
+
 }

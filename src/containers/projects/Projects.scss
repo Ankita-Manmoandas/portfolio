@@ -35,6 +35,7 @@
 @media screen  and (min-width: $medium-screen-width), screen and (min-height:$medium-screen-height) {
   .projects {
     margin-top: 40%;
+    
  
 
    
@@ -46,11 +47,14 @@
    &__content {
   display: grid;
   grid-template-columns: auto auto;
-  width: 110vw;
+  width: 100vw;
+  margin-left: 10%;
+  
+
    }
 
    &__instruction {
-   margin-left: 14%;
+   margin-left: 19%;
    margin-top: 10%;
    }
   }

@@ -16,3 +16,30 @@
   
   }
 }
+
+@media screen  and (min-width: $medium-screen-width), screen and (min-height:$medium-screen-height) {
+
+
+  .about {
+    margin-top: 20%;
+    margin-left: 13%;
+  
+    &__header{
+      font-size:xxx-large;
+      padding-bottom: 10%;
+    }
+    &__content {
+      width: 96%;
+      height: 60vh;
+       border: $secondary-color 3px solid;
+       box-shadow: 20px 10px 10px $secondary-color;
+       border-radius: 15px;
+       margin: auto;
+       padding: 10px 5px 5px 10px;
+       margin-top: 16%;
+       font-size: xx-large;
+       
+       
+    }
+  }
+}
