@@ -7,10 +7,13 @@ const Skills = () => {
 
   return <div className="skills"> 
     <h2 className="skills__header"> Tech Stack </h2>
+
+    <div className="skills__content">
   
   <Circles className="skills__circles"/>
 
   <TechStack className="skills__icons" />
+  </div>
 
   
  </div>

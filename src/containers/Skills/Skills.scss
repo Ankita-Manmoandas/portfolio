@@ -29,11 +29,39 @@
 @media screen  and (min-width: $medium-screen-width), screen and (min-height:$medium-screen-height) {
 
 .skills {
-  margin-top: 55%;
+  margin-top: 43%;
+  &__header {
+    font-family: $secondary-font;
+    color: $secondary-color;
+    padding-bottom:  10%;
+    font-size:xxx-large;
+    margin-left: 15%;
+  }
+
+  &__content {
+    display: flex;
+    width: 100%;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: 15%;
+  
+  }
+  &__circles { 
+    margin-top: 20%;
+
+  }
+
+  &__icons{
+
+   width: 50vh;
+   margin: auto;
+   border: 2px saddlebrown solid;
+ 
+
+  }
+}
  
 
 
 }
 
-
-}

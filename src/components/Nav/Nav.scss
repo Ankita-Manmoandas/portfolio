@@ -36,8 +36,10 @@
 }
 @media screen  and (min-width: $medium-screen-width), screen and (min-height:$medium-screen-height) {
   .nav {
-    height: 7.25em;
-    width: 100%;
+    position: fixed;
+  top: 0px;
+
+  
     
   
 
