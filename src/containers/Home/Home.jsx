@@ -15,11 +15,11 @@ const Home = () => {
   <div className="Home__section">
   
       <h2 className="Home__header"> 
-      Hi!
+      Hi! 👋
         <br />
         My name is Ankita and I’m a 
         <br />
-        Junior Full Stack Engineer
+        Junior Full Stack Engineer.
       </h2>
       <p className="Home__CTA"> 
         Scroll down to view

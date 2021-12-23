@@ -50,4 +50,20 @@
 
 }
 
+@media screen  and (min-width:$small-screen){
 
+  .Home {
+
+
+    &__header {  
+      margin-top: 10%;
+      font-size: 19px;
+  }
+  &__CTA {
+    font-size: 16px;
+  }
+
+  }
+
+  
+}

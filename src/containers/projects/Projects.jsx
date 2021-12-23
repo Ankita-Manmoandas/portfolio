@@ -20,7 +20,7 @@ const Projects = () => {
   <ProjectsCircle  defaultCircle = {PurpleCircle} projectCircle={punk} projectName="Punk API" />
   <ProjectsCircle  defaultCircle = {darkBlue} projectCircle={morse} projectName="Morse-code translator"  />
 
-  <p>Hover over each circle for a preview!</p>
+  <p className="projects_instruction">Hover over each circle for a preview!</p>
 
 
   </div>

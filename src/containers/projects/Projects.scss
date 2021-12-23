@@ -1,6 +1,29 @@
 
+@use "../../assests/variables" as *;
+@use "../../assests/typ" as *;
+
+
 
 .projects {
   margin-top: 45%;
+  height: 100vh;
  
+}
+
+
+@media screen and (min-width: $small-screen) {
+  .projects {
+    margin-top: 40%;
+
+    &__instruction {
+      margin-bottom: 5%;
+
+
+    }
+   
+  }
+
+
+
+  
 }
