@@ -12,7 +12,9 @@ const Projects = () => {
 
 
   return <div className="projects">
-  <h2> Projects</h2>
+      <h2 className="projects__header"> Projects</h2>
+
+      <div className="projects__content">
   <ProjectsCircle 
   defaultCircle = {PurpleCircle} 
   projectCircle= {Calculator} projectName="Calculator" />
@@ -20,8 +22,8 @@ const Projects = () => {
   <ProjectsCircle  defaultCircle = {PurpleCircle} projectCircle={punk} projectName="Punk API" />
   <ProjectsCircle  defaultCircle = {darkBlue} projectCircle={morse} projectName="Morse-code translator"  />
   <br />
-
-  <p className="projects_instruction">Hover over each circle for a preview!</p>
+  </div>
+  <h4 className="projects__instruction">Hover over each circle for a preview!</h4>
 
 
   </div>

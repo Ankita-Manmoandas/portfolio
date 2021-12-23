@@ -29,3 +29,32 @@
 
   
 }
+
+
+
+@media screen  and (min-width: $medium-screen-width), screen and (min-height:$medium-screen-height) {
+  .projects {
+    margin-top: 40%;
+ 
+
+   
+   &__header{
+    font-size:xxx-large;
+    margin-left: 15%;
+   }
+
+   &__content {
+  display: grid;
+  grid-template-columns: auto auto;
+  width: 110vw;
+   }
+
+   &__instruction {
+   margin-left: 14%;
+   margin-top: 10%;
+   }
+  }
+
+
+
+}

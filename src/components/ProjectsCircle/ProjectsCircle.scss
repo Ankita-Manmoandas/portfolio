@@ -12,6 +12,7 @@
     height: 100px;
     width: 110px;
     margin-top: 4%;
+    margin-bottom: 6%;
   }
 }
 
@@ -29,4 +30,22 @@
 
 
   
+}
+
+
+@media screen  and (min-width: $medium-screen-width), screen and (min-height:$medium-screen-height) {
+  .project-circles {
+    margin-top: 20%;
+  
+  
+  
+    &__img {
+      height: 170px;
+      width: 180px;
+      margin-top: 4%; 
+
+    }
+  }
+
+
 }
