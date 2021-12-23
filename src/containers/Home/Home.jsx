@@ -10,8 +10,9 @@ import Contact from "../contact/Contact";
 const Home = () => {
 
   return <>
-<Circles className="circles-home" />
+
 <div className="Home">
+<Circles className="Home__circles" />
   <div className="Home__section">
   
       <h2 className="Home__header"> 

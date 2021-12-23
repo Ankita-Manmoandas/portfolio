@@ -4,24 +4,16 @@
 
 
 .skills {
-  height: 90vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
-  align-items:center;
-  margin-top: 1%;
-  
-  
-  
-  &__circles {
-   margin-top: 2%;
-
-  }
+  margin-top: 30%;
+ 
   &__header {
     font-family: $secondary-font;
-    margin-top: 1.5%;
-    margin-bottom: 6%;
     color: $secondary-color;
+    padding-bottom:  10%;
+  }
+  &__circles { 
+    margin-top: 20%;
+
   }
 
   &__icons{

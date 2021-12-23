@@ -10,7 +10,7 @@ import twitter from "../../assests/images/twitter.png";
 const Contact = () => {
 
   return <div className="contact">
-    <h3 className="contact__header"> Contact </h3>
+    <h2 className="contact__header"> Contact </h2>
 
    <DisplayPicture className="contact__display"/>
 

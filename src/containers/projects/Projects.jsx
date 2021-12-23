@@ -12,7 +12,7 @@ const Projects = () => {
 
 
   return <div className="projects">
-  <h3> Projects</h3>
+  <h2> Projects</h2>
   <ProjectsCircle 
   defaultCircle = {PurpleCircle} 
   projectCircle= {Calculator} projectName="Calculator" />

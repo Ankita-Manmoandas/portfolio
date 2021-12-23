@@ -4,7 +4,7 @@ import DisplayPicture from "../../components/DisplayPicture/DisplayPicture";
 
 const About = () => {
   return <div className="about">
-    <h3 className="about__header">About me</h3>
+    <h2 className="about__header">About me</h2>
     <DisplayPicture />
     <div className="about__content">
     <p> I'm a Biologist working towards

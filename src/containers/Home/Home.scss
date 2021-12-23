@@ -3,7 +3,9 @@
 @use "../../assests/typ" as *;
 
 
+
 .Home {
+  margin-top: 40%;
   // height: 100vh;
   // // width: 100%;
   // display: flex;
@@ -11,6 +13,10 @@
   // justify-content: space-around;
   // align-items: center;
   // // color: $secondary-color;
+
+  &__circles {
+    // margin-top: 50%;
+  }
 
 
   &__section {

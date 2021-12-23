@@ -6,9 +6,10 @@ import "./Skills.scss";
 const Skills = () => {
 
   return <div className="skills"> 
+    <h2 className="skills__header"> Tech Stack </h2>
   
   <Circles className="skills__circles"/>
-  <h3 className="skills__header"> Tech Stack </h3>
+
   <TechStack className="skills__icons" />
 
   
