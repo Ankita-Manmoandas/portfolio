@@ -15,16 +15,16 @@ margin-top: 43%;
 &__sub-heading {
   margin-top: 6%;
   margin-bottom: 3%;
+  padding-top: 5%;
+
 }
+
 
 &__icons {
   height: 30%;
   padding-bottom: 30%;
 }
-&__sub-heading{
-  padding-top: 5%;
-  margin-bottom: 2%;
-}
+
 
 &__icon {
   padding: 10px;
@@ -35,3 +35,43 @@ margin-top: 43%;
 }
 
 }
+
+
+@media screen  and (min-width: $medium-screen-width), screen and (min-height:$medium-screen-height) {
+
+  .contact {
+    font-size: xx-large;
+    height: 100vh;
+    
+
+    &__header{
+      font-size:xxx-large;
+      margin-left: 15%;
+      
+     }
+  
+   
+    
+    
+    &__card {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      // border: black 2px solid;
+      height: 70vh;
+      width: 690px;
+      margin-left: 18%;
+     
+    }
+
+    &__email {
+      margin-left: 5%;
+    }
+
+ 
+
+
+  
+    
+
+  }  }

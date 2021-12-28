@@ -11,9 +11,12 @@ const Contact = () => {
 
   return <div className="contact">
     <h2 className="contact__header"> Contact </h2>
+    <section className="contact__card">
+
 
    <DisplayPicture className="contact__display"/>
 
+   <div className="contact__info"> 
    <h3 className="contact__sub-heading"> Get in touch:</h3>
    <h5 className="contact__email"> ankita.gandhim09@gmail.com</h5>
    <div className="contact__icons"> 
@@ -23,10 +26,15 @@ const Contact = () => {
    <img src= {cv} alt= "programming icon" className="contact__icon"  />
    <img src= {twitter} alt= "programming icon" className="contact__icon"  />
    </div>
+   </div>
 
-   
+   </section>
+
+
 
   </div>
+
+  
 }
 
 export default Contact;
