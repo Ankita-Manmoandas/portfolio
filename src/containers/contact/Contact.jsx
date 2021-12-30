@@ -11,9 +11,10 @@ const Contact = () => {
 
   return <div className="contact">
     <h2 className="contact__header"> Contact </h2>
+    <div className="contact__complete" >
+
+    
     <section className="contact__card">
-
-
    <DisplayPicture className="contact__display"/>
 
    <div className="contact__info"> 
@@ -27,8 +28,10 @@ const Contact = () => {
    <img src= {twitter} alt= "programming icon" className="contact__icon"  />
    </div>
    </div>
+   
 
    </section>
+   </div>
 
 
 

@@ -22,20 +22,25 @@ const Home = () => {
         <br />
         Junior Full Stack Engineer.
       </h2>
+      
       <p className="Home__CTA"> 
         Scroll down to view
       </p>
       <img src={arrow} className="Home__arrow" />
+     
     </div>
 
 
    </div>
-   <Skills />
+   <div className="containers">
 
-   <Projects /> 
+ 
+    <Skills className="containers__section"/>
+    <Projects  className="containers__section"/> 
+    <About className="containers__section" /> 
+    <Contact className="containers__section" />  
 
-   <About /> 
-   <Contact /> 
+   </div>
 
 
   </>

@@ -25,6 +25,7 @@ Network’s Python intro course. 🤩
 Following this, I
 was accepted into the _nology
 Technology Consultancy Programme. 🏢 </p>
+<br />
 </div>
 </div>
     

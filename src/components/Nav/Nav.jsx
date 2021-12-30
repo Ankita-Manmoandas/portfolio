@@ -15,11 +15,12 @@ const Nav = () => {
 
   return   <nav className="nav">
   <h2 className="nav__logo">Ankita M</h2>
-  
-  {showMenu && <NavMenu toggle = {toggleNav}></NavMenu>}
- <img src={menu} alt="menu" className ="nav__menu-image"
+  <img src={menu} alt="menu" className ="nav__menu-image"
  onClick={toggleNav} />
  
+  
+  {showMenu && <NavMenu toggle = {toggleNav}></NavMenu>}
+
 
 </nav>
 }

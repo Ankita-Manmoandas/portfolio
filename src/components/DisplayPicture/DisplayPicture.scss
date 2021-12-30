@@ -14,3 +14,13 @@
 }
 
 }
+
+
+@media screen and (min-width: $large-screen-width) {
+  .display-picture {
+    transform: scale(2.5);
+   }
+   
+
+
+}

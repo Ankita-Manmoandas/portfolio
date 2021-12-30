@@ -8,6 +8,11 @@
   background-color: $primary-color;
   font-family: $secondary-font;
   color: $secondary-color;
+  margin: 0px;
+  padding: 0px;
+
+ 
+  
 }
 
 // .App-logo {
@@ -44,3 +49,13 @@
 //     transform: rotate(360deg);
 //   }
 // }
+
+
+
+@media screen  and (min-width: $laptop-screen-width) {
+
+  .app {
+    width: 100vw;
+  }
+}
+

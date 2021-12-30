@@ -34,31 +34,91 @@
 
 @media screen  and (min-width: $medium-screen-width), screen and (min-height:$medium-screen-height) {
   .projects {
-    margin-top: 40%;
+  
+  height: 80vh;
     
  
 
    
    &__header{
     font-size:xxx-large;
-    margin-left: 15%;
+    margin-left: 20%; 
+   
    }
 
    &__content {
   display: grid;
   grid-template-columns: auto auto;
   width: 100vw;
-  margin-left: 10%;
+  margin-left: 10%; 
+ 
   
 
    }
 
-   &__instruction {
-   margin-left: 19%;
+   &__instruction {  
    margin-top: 10%;
+   margin-left: 25%; 
+   font-size: 25px;
    }
   }
 
 
-
 }
+@media screen and (min-width: $large-screen-width) {
+  .projects {
+    margin-top: 30%;
+
+    &__header {
+      font-size: 60px;
+      margin-left: 21%; 
+
+    }
+    
+    &__content {
+      font-size: 29px;
+      margin-left: 12%; 
+    }
+    &__instruction {
+      font-size: 28px;
+      }
+ 
+
+}}
+
+@media screen  and (min-width: $laptop-screen-width) {
+  .projects {
+    margin-top: 5%;
+    height: 70vh;
+
+
+    &__header {
+      font-size: 60px;
+      margin-left: 0%; 
+      text-align: center;
+      
+
+    }
+    &__content {
+      font-size: 29px;
+      margin-left: 0%; 
+      height: 100%;
+      margin-top: 2%;
+      margin-bottom: 0;
+      width: 80%;
+      margin: auto;
+
+    }
+
+
+      &__instruction {
+   
+       margin-top: 5%;
+   margin-left: 0%;
+   padding-bottom: 5%;
+        }
+   
+
+   
+
+}}

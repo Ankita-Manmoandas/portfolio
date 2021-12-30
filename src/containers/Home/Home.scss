@@ -48,11 +48,25 @@
     padding-bottom: 10%;
     font-family: $secondary-font;
     color: $secondary-color;
-    
-    
+   
 
-  
   }
+  &__arrow {
+   
+    animation-name: arrow;
+    animation-duration: 1.1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease;
+    height: 70px;
+
+
+    @keyframes arrow {
+      0% { transform: translateY(0);}
+      50% { transform: translateY(60px);}
+      100% { transform: translateY(0);}
+    }
+  }
+  
 
 }
 
@@ -101,11 +115,14 @@
     width: 100%;
     margin:auto;
     display: flex;
-    height: 60vh;
+    height: 80vh;
     justify-content: flex-start;
     align-items: center;
     margin-top: 37%;
-    margin-left: 20%;
+    margin-left: 20%; 
+
+ 
+   
     
 
     &__header {  
@@ -118,10 +135,92 @@
   }
   &__arrow {
     transform: scale(1.25);
+ 
+  }
+
+ 
+  .containers {
+    width: 100%;
+  }
+
+  }}
+
+
+
+
+  
+
+
+@media screen and (min-width: $large-screen-width) {
+  .Home {
+    height: 80vh;
+    
+
+    &__header {  
+      margin-top: 130%;
+      font-size: 40px;
+  }
+  &__CTA {
+   
+    font-size: 32px;
+  }
+  &__arrow {
+    transform: scale(1.25);
+   
   }
   
+  
+}
+}
+
+@media screen  and (min-width: $laptop-screen-width) {
+  .Home {
+    margin-top: 20%;
+    width: 80%;
+   
+    display: flex;
+    flex-direction: row;
+    height: 50vh;
+    justify-content: space-around;
+    align-items: flex-start;
+ 
+    margin-left: 60px;
+    padding: 0px 0px;
+   
+    
+
+    &__section {
+     
+    
+      
+      
+      height: 35vh;
+    }
+
+    &__header {  
+      margin-top: 10%;
+      font-size: 37px;
+      text-align: left;
+      line-height: 50px;
+  }
+  &__CTA {
+    margin-top: 20%;
+    margin-bottom: 1%;
+    padding-bottom: 1%;
+    width: 200px;
+    
+    font-size: 22px;
+  }
+  &__arrow {
+    transform: scale(1);
+
+
+ 
   }
 
+ 
 
+
+  }
   
 }

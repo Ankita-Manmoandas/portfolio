@@ -16,5 +16,35 @@
 @media screen  and (min-width: $medium-screen-width), screen and (min-height:$medium-screen-height) {
   .Circles {
   transform: scale(1.5);
+  width: 250px;
+  padding-left: 10%;  
+  
+
+  &__item {
+    animation-name: bounce;
+    animation-duration: 2s;
+    animation-iteration-count:infinite;
+    animation-timing-function: ease;
+    width: 100%;
+  
+  
+
   }
+
+  @keyframes bounce {
+    0%   { transform: scale(1,1)    translateY(0); }
+    10%  { transform: scale(1.1,.9) translateY(0); }
+    30%  { transform: scale(.9,1.1) translateY(-100px); }
+    50%  { transform: scale(1,1)    translateY(0); }
+    100% { transform: scale(1,1)    translateY(0); }
+
+   
+
+
+  
+
+
+  }
+
+ }
 }

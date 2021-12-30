@@ -49,3 +49,39 @@
 
 
 }
+
+
+@media screen and (min-width: $large-screen-width) {
+  .project-circles {
+    margin-top: 20%;
+  
+  
+  
+    &__img {
+      height: 230px;
+      width: 240px;
+      margin-top: 4%; 
+
+    }
+  }
+
+
+}
+
+@media screen  and (min-width: $laptop-screen-width) {
+  .project-circles {
+    margin-top: 5%;
+  
+  
+  
+    &__img {
+      height: 200px;
+      width: 220px;
+      margin-top: 0%; 
+      margin-bottom: 2%;
+
+    }
+  }
+
+
+}

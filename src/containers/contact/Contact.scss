@@ -10,7 +10,9 @@ margin-top: 43%;
 &__header {
   margin-bottom: 10%;
 }
+&__info {
 
+}
 
 &__sub-heading {
   margin-top: 6%;
@@ -40,13 +42,16 @@ margin-top: 43%;
 @media screen  and (min-width: $medium-screen-width), screen and (min-height:$medium-screen-height) {
 
   .contact {
+
+  height: 100vh;
     font-size: xx-large;
-    height: 100vh;
+
     
 
     &__header{
       font-size:xxx-large;
-      margin-left: 15%;
+      margin-left: 20%; 
+     
       
      }
   
@@ -57,15 +62,14 @@ margin-top: 43%;
       display: flex;
       justify-content: space-around;
       align-items: center;
-      // border: black 2px solid;
-      height: 70vh;
-      width: 690px;
-      margin-left: 18%;
+    
+      height: 80vh;
+    
      
     }
 
     &__email {
-      margin-left: 5%;
+      // margin-left: 5%;
     }
 
  
@@ -75,3 +79,91 @@ margin-top: 43%;
     
 
   }  }
+
+
+  @media screen  and (min-width: $medium-screen-width), screen and (min-height:$medium-screen-height) { 
+
+
+  .contact {
+    &__card {
+     
+      width: 970px;
+  
+     }
+
+     &__info {
+
+      transform: scale(1.4);
+     }
+
+     &__icons {
+       margin-top: 10%;
+     }
+  
+ }
+  
+}
+
+
+@media screen and (min-width: $large-screen-width) {
+
+  .contact {
+
+    &__header {
+      font-size: 60px;
+      margin-left: 21%; 
+
+    }
+    &__card {
+     
+    
+     margin-left: 12%;
+  
+     }
+
+     &__info {
+
+      transform: scale(1.3);
+     }
+
+    
+  
+ }
+
+
+}
+
+@media screen and (min-width: $laptop-screen-width) {
+  .contact {
+    margin-top: 10%;
+    height: 85vh;
+    
+    &__header {
+      margin-left: 0%; 
+
+    }
+    &__complete {
+      display: flex;
+      justify-content: center;
+      margin-top: 0;
+      
+    }
+
+          
+    &__card {
+      margin-left: 0;
+    
+      height: 400px;
+    
+     
+    }
+    &__info {
+      transform: scale(1);
+
+
+    
+     }
+    }
+  }
+
+

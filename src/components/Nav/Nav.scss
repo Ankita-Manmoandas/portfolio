@@ -8,14 +8,17 @@
 
 .nav {
   height: 6.25em;
-  width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
   background-color: $primary-color;
   color: $tertiary-color;
   position: fixed;
+  flex-wrap: wrap;
+  width: 100%;
+
   top: 0px;
+
 
   
 
@@ -38,6 +41,8 @@
   .nav {
     position: fixed;
   top: 0px;
+  flex-wrap: wrap;
+  width: 100%;
 
   
     
@@ -63,3 +68,45 @@
 
 
 }
+
+@media screen and (min-width: $large-screen-width) {
+
+.nav {
+  height: 7.25em;
+  
+  &__logo {
+   font-size: 36px;
+
+
+  }
+  
+  &__menu-image {
+  margin-right: 5%;
+  transform: scale(1.8);
+
+}
+}
+}
+
+
+@media screen  and (min-width: $laptop-screen-width) {
+  .nav {
+    height: 6.20em;
+  
+    
+    
+    &__logo {
+     font-size: 24px;
+     margin-left: 2%;
+  
+  
+    }
+    
+    &__menu-image {
+    margin-right: 1%;
+    transform: scale(1);
+  
+  }
+  }
+  }
+  
