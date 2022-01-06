@@ -19,8 +19,6 @@ const ProjectsCircle = (props) => {
     <img src={defaultCircle} alt= "circle art" className="project-circles__img"
 onMouseMove= {toggle}
 
-
-
     /> }
 
     {showProject && (
@@ -37,11 +35,11 @@ onMouseMove= {toggle}
     <p className="project-circles__description">{description}</p> ) }
     <section className="project-circles__links">  
  <button className="project-circles__button" 
- onClick={(e)=> {
-  e.preventDefault();
-   window.location.href={liveLink};
+//  onClick={(e)=> {
+//   e.preventDefault();
+//    window.location.href={liveLink};
 
- }}
+//  }}
   > Live site </button>
     <img src= {code} alt = " programming icon"
     className="project-circles__icon"  />
