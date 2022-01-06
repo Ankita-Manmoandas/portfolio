@@ -6,7 +6,7 @@
 
 .projects {
   margin-top: 35%;
-  height: 100vh;
+  height: fit-content;
   &__instruction {
     margin-top: 0%;
 
@@ -35,7 +35,8 @@
 @media screen  and (min-width: $medium-screen-width), screen and (min-height:$medium-screen-height) {
   .projects {
   
-  height: 80vh;
+  height: fit-content;
+  width: fit-content;
     
  
 
@@ -92,33 +93,39 @@
     height: 70vh;
 
 
+
     &__header {
       font-size: 60px;
       margin-left: 0%; 
       text-align: center;
+      
       
 
     }
     &__content {
       font-size: 29px;
       margin-left: 0%; 
-      height: 100%;
+      height: max-content;
       margin-top: 2%;
       margin-bottom: 0;
-      width: 80%;
-      margin: auto;
-
+     
+     
+      
+    
+      display: flex;
+      justify-content: center;
+      margin-top: 0;
     }
-
+    
 
       &__instruction {
-   
-       margin-top: 5%;
-   margin-left: 0%;
-   padding-bottom: 5%;
-        }
+        margin-top: 10px;
+        margin-left: 0%; 
+       
+      
+
+      }
    
 
    
-
 }}

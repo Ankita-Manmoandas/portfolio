@@ -6,6 +6,9 @@
 .project-circles {
   margin-top: 5%;
   height: auto;
+  width: auto;
+  padding: 10px 10px;
+ 
 
 
   &__img {
@@ -14,6 +17,20 @@
     margin-top: 4%;
     margin-bottom: 6%;
   }
+
+    &__description {
+     font-size: 10px;
+
+    }
+    &__links {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    &__icon {
+      transform: scale(0.5);
+    }
+  
 }
 
 @media screen and (min-width: $small-screen) {
@@ -36,6 +53,9 @@
 @media screen  and (min-width: $medium-screen-width), screen and (min-height:$medium-screen-height) {
   .project-circles {
     margin-top: 20%;
+    width: 400px;
+    height: 350px;
+
   
   
   
@@ -54,6 +74,7 @@
 @media screen and (min-width: $large-screen-width) {
   .project-circles {
     margin-top: 20%;
+    height: 400px;
   
   
   
@@ -71,6 +92,10 @@
 @media screen  and (min-width: $laptop-screen-width) {
   .project-circles {
     margin-top: 5%;
+    height:500px;
+    width: 600px;
+    
+    
   
   
   
@@ -81,7 +106,9 @@
       margin-bottom: 2%;
 
     }
+    &__description {
+      font-size: 20px;
   }
 
 
-}
+}}

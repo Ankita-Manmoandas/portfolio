@@ -37,6 +37,11 @@ margin-top: 43%;
 }
 
 }
+@media screen  and (min-width: $small-screen) {
+  .contact {
+    margin-top: 15%;
+  }
+}
 
 
 @media screen  and (min-width: $medium-screen-width), screen and (min-height:$medium-screen-height) {
