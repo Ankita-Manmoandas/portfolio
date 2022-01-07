@@ -18,13 +18,22 @@ const Projects = () => {
   <ProjectsCircle 
   defaultCircle = {PurpleCircle} 
   projectCircle= {Calculator} projectName="Calculator" description = "The first JS challenge as part of the _nology training course in which I was tasked to produce a basic, fully functional calculator using vanilla JS."
-  
+  link="https://ankita-manmoandas.github.io/Calculator/"
+  gitLink = "https://github.com/Ankita-Manmoandas/Calculator"
   />
   <ProjectsCircle  defaultCircle = {darkBlue} projectCircle={tictac} projectName="Noughts and Crosses"  
-  description = " A space themed, two-player noughts and crosses game made using vanilla JS and functional programming.This game offers personalised feedback to the players."/>
+  description = " A space themed, two-player noughts and crosses game made using vanilla JS and functional programming.This game offers personalised feedback to the players."
+  link = "https://ankita-manmoandas.github.io/tictactoegame/"
+  gitLink = "https://github.com/Ankita-Manmoandas/tictactoegame"
+
+ />
   <ProjectsCircle  defaultCircle = {PurpleCircle} projectCircle={punk} projectName="BrewDog"
-  description= "A React App that uses the PUNK API to fetch and display data. A user can search by beer name or use the provided filters to change the beer display accordingly." />
-  <ProjectsCircle  defaultCircle = {darkBlue} projectCircle={morse} projectName="Morse-code translator" description= "An English-to-Morse translator, which can translate words and sentences. This project was created within an internal 4 hour challenge at _nology and was made using test-driven development. "  />
+  description= "A React App that uses the PUNK API to fetch and display data. A user can search by beer name or use the provided filters to change the beer display accordingly."
+  link="https://ankita-manmoandas.github.io/punk-api/" 
+  gitLink="https://github.com/Ankita-Manmoandas/punk-api"/>
+  <ProjectsCircle  defaultCircle = {darkBlue} projectCircle={morse} projectName="Morse-code translator" description= "An English-to-Morse translator, which can translate words and sentences. This project was created within an internal 4 hour challenge at _nology and was made using test-driven development. " 
+  link ="https://ankita-manmoandas.github.io/Morse-code-translator/"
+  gitLink="https://github.com/Ankita-Manmoandas/Morse-code-translator"/>
   <br />
   </div>
   <h4 className="projects__instruction">Hover over each circle for a preview!</h4>

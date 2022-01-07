@@ -1,10 +1,11 @@
-import react from "react";
+import {Linking} from 'react';
 import "./Contact.scss";
 import DisplayPicture from "../../components/DisplayPicture/DisplayPicture";
 import Github from "../../assests/images/git.png";
 import linkedin from "../../assests/images/linkedin.png";
 import cv from "../../assests/images/CV.png";
 import twitter from "../../assests/images/twitter.png";
+
 
 
 const Contact = () => {
@@ -22,8 +23,13 @@ const Contact = () => {
    <h5 className="contact__email"> ankita.gandhim09@gmail.com</h5>
    <div className="contact__icons"> 
    <h4 className="contact__sub-heading"> Connect with me</h4>
-   <img src= {Github} alt= "programming icon" className="contact__icon"/> 
+   <a href="https://github.com" target="_blank" >
+   <img src= {Github} alt= "programming icon" className="contact__icon"
+  />  
+  </a>
+  <a href="https://uk.linkedin.com/in/ankita-manmoandas-331059177" target="_blank"> 
    <img src= {linkedin} alt= "programming icon" className="contact__icon" /> 
+   </a>
    <img src= {cv} alt= "programming icon" className="contact__icon"  />
    <img src= {twitter} alt= "programming icon" className="contact__icon"  />
    </div>

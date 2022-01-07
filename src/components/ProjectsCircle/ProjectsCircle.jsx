@@ -3,7 +3,7 @@ import "./ProjectsCircle.scss";
 import code from "../../assests/images/code.png";
 
 const ProjectsCircle = (props) => {
-  const {defaultCircle, projectCircle, projectName, description, liveLink}= props;
+  const {defaultCircle, projectCircle, projectName, description, link, gitLink}= props;
 
   const [showProject, setShowProject] = useState (false);
   const [showDefault,setShowDefault]= useState(true);
@@ -34,16 +34,16 @@ onMouseMove= {toggle}
     {showProject && (
     <p className="project-circles__description">{description}</p> ) }
     <section className="project-circles__links">  
- <button className="project-circles__button" 
-//  onClick={(e)=> {
-//   e.preventDefault();
-//    window.location.href={liveLink};
-
-//  }}
-  > Live site </button>
+    <a href= {link} target="_blank">
+    <button className="project-circles__button">
+    Live site </button>
+    </a>
+    <a href = {gitLink} target="_blank">
     <img src= {code} alt = " programming icon"
     className="project-circles__icon"  />
+    </a>
     </section>
+
 
 
 
