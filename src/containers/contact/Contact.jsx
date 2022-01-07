@@ -23,7 +23,7 @@ const Contact = () => {
    <h5 className="contact__email"> ankita.gandhim09@gmail.com</h5>
    <div className="contact__icons"> 
    <h4 className="contact__sub-heading"> Connect with me</h4>
-   <a href="https://github.com" target="_blank" >
+   <a href="https://github.com/Ankita-Manmoandas" target="_blank" >
    <img src= {Github} alt= "programming icon" className="contact__icon"
   />  
   </a>
