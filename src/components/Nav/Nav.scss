@@ -16,7 +16,6 @@
   position: fixed;
   flex-wrap: wrap;
   width: 100%;
-
   top: 0px;
 
 
@@ -39,7 +38,7 @@
 }
 @media screen  and (min-width: $medium-screen-width), screen and (min-height:$medium-screen-height) {
   .nav {
-    position: fixed;
+   position: fixed;
   top: 0px;
   flex-wrap: wrap;
   width: 100%;
