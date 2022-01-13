@@ -9,7 +9,7 @@ const NavMenu = (props) => {
     <div className="nav-menu__content">
      <img src = {blackCross} alt="close-menu" className="nav-menu__cross" onClick = {toggle} />
 
-     <Link to="/" className="nav-menu__item" onClick={toggle}>
+     <Link to="/portfolio" className="nav-menu__item" onClick={toggle}>
       Home
     </Link>
     <Link to ="/skills" className=" nav-menu__item" onClick = {toggle}> 
