@@ -10,7 +10,7 @@ left: 0;
 right: 0;
 bottom: 0;
 font-family: $secondary-font;
-z-index: 5;
+
 
 
 &__content {
@@ -66,3 +66,16 @@ align-items: center;
  }
 }
 
+
+@media screen  and (min-width: $laptop-screen-width){
+  .nav-menu {
+
+    &__content {
+      height: 30vw;
+  
+    }
+
+
+
+  }
+}
