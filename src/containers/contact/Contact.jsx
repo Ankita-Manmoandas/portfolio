@@ -20,7 +20,9 @@ const Contact = () => {
 
    <div className="contact__info"> 
    <h3 className="contact__sub-heading"> Get in touch:</h3>
+   <a href="https://mail.google.com/mail/?view=cm&fs=1&to=ankita.gandhim09@gmail.com" target="_blank">
    <h5 className="contact__email"> ankita.gandhim09@gmail.com</h5>
+   </a>
    <div className="contact__icons"> 
    <h4 className="contact__sub-heading"> Connect with me</h4>
    <a href="https://github.com/Ankita-Manmoandas" target="_blank" >
