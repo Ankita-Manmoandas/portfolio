@@ -17,7 +17,7 @@
   flex-wrap: wrap;
   width: 100%;
   top: 0px;
-  z-index: 5;
+  z-index: 2;
 
 
   
@@ -92,10 +92,8 @@
 
 @media screen  and (min-width: $laptop-screen-width) {
   .nav {
-    height: 3.5rem;
-  
-    
-    
+    height: 5rem;
+
     &__logo {
      font-size: 24px;
      margin-left: 2%;

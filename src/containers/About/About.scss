@@ -102,6 +102,8 @@
   .about {
 
   margin-top: 20%;
+  height: min-content;
+
   margin-left: 0%; 
 
   &__header {
@@ -117,7 +119,6 @@
     margin-top: 0;
     padding-top: 0;
     width: 90%;
-    height: 80vh;
     padding-left: 10%;
     
    }
