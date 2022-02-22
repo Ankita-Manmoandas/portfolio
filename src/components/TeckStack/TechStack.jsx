@@ -14,7 +14,7 @@ import "./TechStack.scss";
 
 
 const TechStack = () => {
-  return <div className="teck-stack">
+  return <section className="teck-stack">
     <img src={Github} alt="programming language icon" className="teck-stack__icon"/>
     <img src={npm} alt="programming language icon" className="teck-stack__icon"/>
     <img src={html} alt="programming language icon" className="teck-stack__icon"/>
@@ -25,7 +25,7 @@ const TechStack = () => {
     <img src={css3} alt="programming language icon" className="teck-stack__icon"/>
     <img src={cypress} alt="programming language icon" className="teck-stack__icon"/>
     
-  </div>
+  </section>
 }
 
 export default TechStack; 

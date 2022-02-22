@@ -13,7 +13,7 @@
  
 
   &__icon {
-    height: 50%;
+    height: 40%;
     width: auto;
     margin-top: 10px;
     border-radius: 10%;
@@ -22,7 +22,10 @@
    
   }
   &__icon:hover {
-    height: 70%;
+    height: 42%;
+    width: auto;
+    margin-top: 10px;
+    border-radius: 10%;
     box-shadow: 10px 10px 15px rgb(27, 4, 109);
   }
 

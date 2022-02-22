@@ -40,9 +40,6 @@ const Contact = () => {
 
    </section>
    </div>
-
-
-
   </div>
 
   
