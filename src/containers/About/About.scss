@@ -100,15 +100,18 @@
 
 @media screen  and (min-width: $laptop-screen-width) {
   .about {
+    height: 80vh;
+    padding-bottom: 5%;
 
-  margin-top: 20%;
-  height: min-content;
+  margin-top: 15%;
+ 
 
   margin-left: 0%; 
 
   &__header {
     margin-bottom: 0;
     height: 5px;
+    padding-bottom: 2%;
  
     
 
@@ -128,7 +131,7 @@
      width:45%;
      margin-left: 20%;
      font-size: 31px;
-     height: fit-content;
+     height: min-content;
   
    }
 
