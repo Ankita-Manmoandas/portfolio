@@ -113,7 +113,6 @@
   .Home {
     margin-top: 40%;
     width: 100%;
-   
     display: flex;
     flex-direction: row;
     height: 70vh;
@@ -174,56 +173,87 @@
   
   
 }
-}
 
 @media screen  and (min-width: $laptop-screen-width) {
   .Home {
-    margin-top: 20%;
-    width: 80%;
-   
-    display: flex;
-    flex-direction: row;
+    margin-top: 10%;
+    margin-left: 0%;
     height: 50vh;
-    justify-content: space-around;
-    align-items: flex-start;
+    width:80vw;
+    align-items: center;
+    justify-content: space-between;
+
+
+    &__header {  
+      margin-top: 70%;
+      font-size: 36px;
+      width: 600px;
+  }
+  &__CTA {
+    margin-top: 30%;
+    margin-left: 25%;
+    font-size: 25px;
+  }
+  &__arrow {
+  
+    margin-left: 25%;
+   
+  }
+    
+
+
+
+  }
+
+}
+}
+
+// @media screen  and (min-width: $laptop-screen-width) {
+//   .Home {
+//     margin-top: 20%;
+//     width: 80%;
+//     border: 2px green solid; 
+//     display: flex;
+//     flex-direction: row;
+//     justify-content: space-around;
+//     align-items: center;
  
-    margin-left: 60px;
-    padding: 0px 0px;
+//     margin-left: 60px;
+//     padding: 0px 0px;
    
     
 
-    &__section {
+//     &__section {
      
     
       
       
-      height: 35vh;
-    }
+//       height: 35vh;
+//     }
 
-    &__header {  
-      margin-top: 10%;
-      font-size: 37px;
-      text-align: left;
-      line-height: 50px;
-  }
-  &__CTA {
-    margin-top: 20%;
-    margin-bottom: 1%;
-    padding-bottom: 1%;
-    width: 200px;
+//     &__header {  
+   
+//       font-size: 37px;
+//       text-align: left;
+//       line-height: 50px;
+//   }
+//   &__CTA {
+//     margin-top: 20%;
+//     margin-bottom: 1%;
+//     padding-bottom: 1%;
+//     width: 200px;
     
-    font-size: 22px;
-  }
-  &__arrow {
-    transform: scale(1);
+//     font-size: 22px;
+//   }
+//   &__arrow {
+//     transform: scale(1);
 
 
  
-  }
+//   }
 
  
 
 
-  }
   
-}
+  
